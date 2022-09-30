@@ -1,32 +1,29 @@
-import React from 'react';
+import {BrowserRouter, Routes, Route} from 'react-router-dom'
 import './App.css'
-import CategoriasSB from './Components/CategoriasSB';
-import Navbar from './Components/Navbar';
+import Home from './Pages/Home';
+import Carrito from './Pages/Carrito';
+import Navbar from './Navegation/Navbar';
+import Contacto from './Pages/Contacto';
+import About from './Pages/About';
+import Producto from './Pages/Producto';
+
+
 
 const App = () => {
     return (
         <>
-  <Navbar/>
-  <main className="div11">
-    <div className="filter">
-      <button
-        className="btn btn-default"
-        type="button"
-        data-toggle="collapse"
-        data-target="#mobile-filter"
-        aria-expanded="false"
-        aria-controls="mobile-filter"
-      >
-        <span className="fa fa-filter pl-1" />
-      </button>
-    </div>
-    {/* Mobile Filter */}
-    <div id="mobile-filter"></div>
-    <CategoriasSB/>
-    <br />
-    <section id="catalogoProductos" className="containerShop"></section>
-  </main>
-</>
+           <BrowserRouter>
+                <Navbar/>
+                <Routes>
+                    <Route path="/" element={<Home/>} />
+                    <Route path="/producto/:id" element={<Producto/>} />
+                    <Route path="/about" element={<About/>} />
+                    <Route path="/contacto" element={<Contacto/>} />
+                    <Route path="/carrito" element={<Carrito/>} />
+                </Routes>
+
+           </BrowserRouter>
+        </>
 
     );
 }

@@ -1,8 +1,8 @@
 import React from 'react';
-import Footer from './Footer';
-import PrecioSB from './SideBar/PrecioSB';
-import ProductosSB from './SideBar/ProductosSB';
-import TiposSB from './SideBar/TiposSB';
+import Footer from '../../Components/SideBar/Footer';
+import PrecioSB from '../../Components/SideBar/PrecioSB';
+import ProductosSB from '../../Components/SideBar/ProductosSB';
+import TiposSB from '../../Components/SideBar/TiposSB';
 
 const CategoriasSB = () => {
     return (

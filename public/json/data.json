@@ -1,0 +1,926 @@
+[{
+    "id": "1",
+    "nombre": "3-D",
+    "precio": 220,
+    "stock": 10,
+    "image": "Multimedia/3d.jpg",
+    "tipo": "salado",
+    "celiaco": "noCeliaco",
+    "categoria": "snacks"
+}, {
+    "id": "2",
+    "nombre": "9 de oro - Agridulce",
+    "precio": 120,
+    "stock": 15,
+    "image": "Multimedia/9deoroazucarada.jpg",
+    "tipo": "dulce",
+    "celiaco": "noCeliaco",
+    "categoria": "galletitas"
+}, {
+    "id": "3",
+    "nombre": "9 de oro - Azucarada",
+    "precio": 120,
+    "stock": 15,
+    "image": "Multimedia/9deoroagridulces.jpg",
+    "tipo": "dulce",
+    "celiaco": "noCeliaco",
+    "categoria": "galletitas"
+}, {
+    "id": "4",
+    "nombre": "9 de oro - Clasica",
+    "precio": 120,
+    "stock": 15,
+    "image": "Multimedia/9deoroclasica.jpg",
+    "tipo": "salado",
+    "celiaco": "noCeliaco",
+    "categoria": "galletitas"
+}, {
+    "id": "5",
+    "nombre": "Aguila Brownie",
+    "precio": 145,
+    "stock": 20,
+    "image": "Multimedia/aguilabrownie.jpg",
+    "tipo": "dulce",
+    "celiaco": "noCeliaco",
+    "categoria": "alfajores"
+}, {
+    "id": "6",
+    "nombre": "Aguila Clasico",
+    "precio": 145,
+    "stock": 20,
+    "image": "Multimedia/AGUILACLASICO.png",
+    "tipo": "dulce",
+    "celiaco": "noCeliaco",
+    "categoria": "alfajores"
+}, {
+    "id": "7",
+    "nombre": "Alfajor Bon o Bon",
+    "precio": 145,
+    "stock": 20,
+    "image": "Multimedia/alfajorbonobon.jpg",
+    "tipo": "dulce",
+    "celiaco": "noCeliaco",
+    "categoria": "alfajores"
+}, {
+    "id": "8",
+    "nombre": "Alfajor Oreo",
+    "precio": 145,
+    "stock": 20,
+    "image": "Multimedia/alfajororeo.jpg",
+    "tipo": "dulce",
+    "celiaco": "noCeliaco",
+    "categoria": "alfajores"
+}, {
+    "id": "9",
+    "nombre": "Alfajor Pepitos",
+    "precio": 145,
+    "stock": 20,
+    "image": "Multimedia/alfajorpepito.png",
+    "tipo": "dulce",
+    "celiaco": "noCeliaco",
+    "categoria": "alfajores"
+}, {
+    "id": "10",
+    "nombre": "Caramelos Alka",
+    "precio": 2,
+    "stock": 50,
+    "image": "Multimedia/alka.jpeg",
+    "tipo": "dulce",
+    "celiaco": "celiaco",
+    "categoria": "caramelos"
+}, {
+    "id": "11",
+    "nombre": "Arcor Chocolate y menta",
+    "precio": 7,
+    "stock": 50,
+    "image": "Multimedia/arcorchocolateymenta.jpg",
+    "tipo": "dulce",
+    "celiaco": "celiaco",
+    "categoria": "caramelos"
+}, {
+    "id": "12",
+    "nombre": "Arcor de miel",
+    "precio": 7,
+    "stock": 50,
+    "image": "Multimedia/arcordemiel.jpg",
+    "tipo": "dulce",
+    "celiaco": "celiaco",
+    "categoria": "caramelos"
+}, {
+    "id": "13",
+    "nombre": "Bagley 3.0 Blanco",
+    "precio": 145,
+    "stock": 20,
+    "image": "Multimedia/bagleyblanco.png",
+    "tipo": "dulce",
+    "celiaco": "noCeliaco",
+    "categoria": "alfajores"
+}, {
+    "id": "14",
+    "nombre": "Bagley 3.0 Negro",
+    "precio": 145,
+    "stock": 20,
+    "image": "Multimedia/bagleynegro.jpg",
+    "tipo": "dulce",
+    "celiaco": "noCeliaco",
+    "categoria": "alfajores"
+}, {
+    "id": "15",
+    "nombre": "Bazooka Banana",
+    "precio": 8,
+    "stock": 50,
+    "image": "Multimedia/bazookabanana.jpg",
+    "tipo": "dulce",
+    "celiaco": "celiaco",
+    "categoria": "chicles"
+}, {
+    "id": "16",
+    "nombre": "Bazooka Menta",
+    "precio": 8,
+    "stock": 50,
+    "image": "Multimedia/bazookamenta.png",
+    "tipo": "dulce",
+    "celiaco": "celiaco",
+    "categoria": "chicles"
+}, {
+    "id": "17",
+    "nombre": "Bazooka Tutti Frutti",
+    "precio": 8,
+    "stock": 50,
+    "image": "Multimedia/bazookatuttifuttie.jpg",
+    "tipo": "dulce",
+    "celiaco": "celiaco",
+    "categoria": "chicles"
+}, {
+    "id": "18",
+    "nombre": "Beldent",
+    "precio": 70,
+    "stock": 30,
+    "image": "Multimedia/beldent.jpg",
+    "tipo": "dulce",
+    "celiaco": "celiaco",
+    "categoria": "chicles"
+}, {
+    "id": "19",
+    "nombre": "Beldent Infinit",
+    "precio": 130,
+    "stock": 30,
+    "image": "Multimedia/beldentinfinite.jpg",
+    "tipo": "dulce",
+    "celiaco": "celiaco",
+    "categoria": "chicles"
+}, {
+    "id": "20",
+    "nombre": "Billiken Yogur",
+    "precio": 4,
+    "stock": 50,
+    "image": "Multimedia/billikenyogur.jpg",
+    "tipo": "dulce",
+    "celiaco": "celiaco",
+    "categoria": "caramelos"
+}, {
+    "id": "21",
+    "nombre": "Block",
+    "precio": 120,
+    "stock": 15,
+    "image": "Multimedia/block.jpg",
+    "tipo": "dulce",
+    "celiaco": "noCeliaco",
+    "categoria": "chocolates"
+}, {
+    "id": "22",
+    "nombre": "Block 300",
+    "precio": 1200,
+    "stock": 10,
+    "image": "Multimedia/block300.jpg",
+    "tipo": "dulce",
+    "celiaco": "celiaco",
+    "categoria": "chocolates"
+}, {
+    "id": "23",
+    "nombre": "Blockazo",
+    "precio": 3000,
+    "stock": 5,
+    "image": "Multimedia/blockaso.jpg",
+    "tipo": "dulce",
+    "celiaco": "celiaco",
+    "categoria": "chocolates"
+}, {
+    "id": "24",
+    "nombre": "Bon o Bon",
+    "precio": 50,
+    "stock": 30,
+    "image": "Multimedia/bonobon.webp",
+    "tipo": "dulce",
+    "celiaco": "noCeliaco",
+    "categoria": "bombones"
+}, {
+    "id": "25",
+    "nombre": "Bon o Bon Blanco",
+    "precio": 50,
+    "stock": 30,
+    "image": "Multimedia/bonobonblanco.png",
+    "tipo": "dulce",
+    "celiaco": "noCeliaco",
+    "categoria": "bombones"
+}, {
+    "id": "26",
+    "nombre": "Boobaloo Menta",
+    "precio": 10,
+    "stock": 40,
+    "image": "Multimedia/boobaloomenta.png",
+    "tipo": "dulce",
+    "celiaco": "celiaco",
+    "categoria": "chicles"
+}, {
+    "id": "27",
+    "nombre": "Boobaloo Tutti Frutti",
+    "precio": 7,
+    "stock": 40,
+    "image": "Multimedia/boobalootuttifuttie.webp",
+    "tipo": "dulce",
+    "celiaco": "celiaco",
+    "categoria": "chicles"
+}, {
+    "id": "28",
+    "nombre": "Butter Toffee Cafe",
+    "precio": 7,
+    "stock": 40,
+    "image": "Multimedia/buttertoffiecafe.jpg",
+    "tipo": "dulce",
+    "celiaco": "celiaco",
+    "categoria": "caramelos"
+}, {
+    "id": "29",
+    "nombre": "Butter Toffee Bon o Bon",
+    "precio": 7,
+    "stock": 40,
+    "image": "Multimedia/buttertoffiebonobon.jpg",
+    "tipo": "dulce",
+    "celiaco": "celiaco",
+    "categoria": "caramelos"
+}, {
+    "id": "30",
+    "nombre": "Butter Toffee Chocolate",
+    "precio": 7,
+    "stock": 40,
+    "image": "Multimedia/buttertoffiechocolate.jpg",
+    "tipo": "dulce",
+    "celiaco": "celiaco",
+    "categoria": "caramelos"
+}, {
+    "id": "31",
+    "nombre": "Butter Toffee Chocolate Aguila",
+    "precio": 7,
+    "stock": 40,
+    "image": "Multimedia/buttertoffiechocolateaguila.jpg",
+    "tipo": "dulce",
+    "celiaco": "celiaco",
+    "categoria": "caramelos"
+}, {
+    "id": "32",
+    "nombre": "Butter Toffee Chocolate Blanco",
+    "precio": 7,
+    "stock": 40,
+    "image": "Multimedia/buttertoffiechocolateblanco.jpg",
+    "tipo": "dulce",
+    "celiaco": "celiaco",
+    "categoria": "caramelos"
+}, {
+    "id": "33",
+    "nombre": "Butter Toffee Dulce de leche",
+    "precio": 7,
+    "stock": 40,
+    "image": "Multimedia/buttertoffiedulcedeleche.jpg",
+    "tipo": "dulce",
+    "celiaco": "celiaco",
+    "categoria": "caramelos"
+}, {
+    "id": "34",
+    "nombre": "Butter Toffee Leche",
+    "precio": 7,
+    "stock": 40,
+    "image": "Multimedia/buttertoffieleche.jpg",
+    "tipo": "dulce",
+    "celiaco": "celiaco",
+    "categoria": "caramelos"
+}, {
+    "id": "35",
+    "nombre": "Butter Toffee Menta",
+    "precio": 7,
+    "stock": 40,
+    "image": "Multimedia/buttertoffiementa.jpg",
+    "tipo": "dulce",
+    "celiaco": "celiaco",
+    "categoria": "caramelos"
+}, {
+    "id": "36",
+    "nombre": "Bocadito Cabsha",
+    "precio": 60,
+    "stock": 30,
+    "image": "Multimedia/cabsha.jpg",
+    "tipo": "dulce",
+    "celiaco": "noCeliaco",
+    "categoria": "bombones"
+}, {
+    "id": "37",
+    "nombre": "Cadbury Tres Sueños",
+    "precio": 170,
+    "stock": 10,
+    "image": "Multimedia/cadburytressuenos.webp",
+    "tipo": "dulce",
+    "celiaco": "noCeliaco",
+    "categoria": "chocolates"
+}, {
+    "id": "38",
+    "nombre": "Cadbury Yogurt Frutilla",
+    "precio": 170,
+    "stock": 10,
+    "image": "Multimedia/cadbyrydefrutilla.jpg",
+    "tipo": "dulce",
+    "celiaco": "noCeliaco",
+    "categoria": "chocolates"
+}, {
+    "id": "39",
+    "nombre": "CerealFort",
+    "precio": 95,
+    "stock": 30,
+    "image": "Multimedia/cerealfort.jpg",
+    "tipo": "dietetico",
+    "celiaco": "noCeliaco",
+    "categoria": "barritas"
+}, {
+    "id": "40",
+    "nombre": "CerealMix",
+    "precio": 90,
+    "stock": 30,
+    "image": "Multimedia/cerealmix.webp",
+    "tipo": "dietetico",
+    "celiaco": "noCeliaco",
+    "categoria": "barritas"
+}, {
+    "id": "41",
+    "nombre": "Chettos",
+    "precio": 150,
+    "stock": 10,
+    "image": "Multimedia/chettos.png",
+    "tipo": "salado",
+    "celiaco": "noCeliaco",
+    "categoria": "snacks"
+}, {
+    "id": "42",
+    "nombre": "Chocolinas",
+    "precio": 145,
+    "stock": 10,
+    "image": "Multimedia/chocolinas.webp",
+    "tipo": "dulce",
+    "celiaco": "noCeliaco",
+    "categoria": "galletitas"
+}, {
+    "id": "44",
+    "nombre": "Cofler Aireado Almendras",
+    "precio": 220,
+    "stock": 10,
+    "image": "Multimedia/cofleraireadoalmendras.jpg",
+    "tipo": "dulce",
+    "celiaco": "noCeliaco",
+    "categoria": "chocolates"
+}, {
+    "id": "45",
+    "nombre": "Cofler Aireado Blanco",
+    "precio": 220,
+    "stock": 10,
+    "image": "Multimedia/cofleraireadoblanco.png",
+    "tipo": "dulce",
+    "celiaco": "celiaco",
+    "categoria": "chocolates"
+}, {
+    "id": "46",
+    "nombre": "Cofler Aireado Leche",
+    "precio": 220,
+    "stock": 10,
+    "image": "Multimedia/cofleraireadoleche.png",
+    "tipo": "dulce",
+    "celiaco": "celiaco",
+    "categoria": "chocolates"
+}, {
+    "id": "47",
+    "nombre": "Criollitas",
+    "precio": 170,
+    "stock": 10,
+    "image": "Multimedia/criollitas.webp",
+    "tipo": "salado",
+    "celiaco": "noCeliaco",
+    "categoria": "galletitas"
+}, {
+    "id": "48",
+    "nombre": "Don Satur Dulces",
+    "precio": 120,
+    "stock": 20,
+    "image": "Multimedia/donsaturdulces.png",
+    "tipo": "dulce",
+    "celiaco": "noCeliaco",
+    "categoria": "galletitas"
+}, {
+    "id": "49",
+    "nombre": "Don Satur Saladas",
+    "precio": 120,
+    "stock": 20,
+    "image": "Multimedia/donsatursaladas.png",
+    "tipo": "noCeliaco",
+    "celiaco": "galletitas"
+}, {
+    "id": "50",
+    "nombre": "Doritos",
+    "precio": 160,
+    "stock": 10,
+    "image": "Multimedia/doritos.jpg",
+    "tipo": "salado",
+    "celiaco": "noCeliaco",
+    "categoria": "snacks"
+}, {
+    "id": "51",
+    "nombre": "Dos Corazones",
+    "precio": 80,
+    "stock": 20,
+    "image": "Multimedia/doscorazones.jpg",
+    "tipo": "dulce",
+    "celiaco": "celiaco",
+    "categoria": "bombones"
+}, {
+    "id": "52",
+    "nombre": "Fantoche Blanco",
+    "precio": 100,
+    "stock": 30,
+    "image": "Multimedia/fantocheblanco.png",
+    "tipo": "dulce",
+    "celiaco": "noCeliaco",
+    "categoria": "alfajores"
+}, {
+    "id": "53",
+    "nombre": "Fantoche Negro",
+    "precio": 100,
+    "stock": 30,
+    "image": "Multimedia/fantochenegro.webp",
+    "tipo": "dulce",
+    "celiaco": "noCeliaco",
+    "categoria": "alfajores"
+}, {
+    "id": "54",
+    "nombre": "Ferrero Rocher",
+    "precio": 50,
+    "stock": 30,
+    "image": "Multimedia/ferrerorosher.webp",
+    "tipo": "dulce",
+    "celiaco": "noCeliaco",
+    "categoria": "bombones"
+}, {
+    "id": "55",
+    "nombre": "Flics Menta",
+    "precio": 45,
+    "stock": 20,
+    "image": "Multimedia/flicsmenta.png",
+    "tipo": "dulce",
+    "celiaco": "celiaco",
+    "categoria": "chicles"
+}, {
+    "id": "56",
+    "nombre": "Flics Tutti Frutti",
+    "precio": 45,
+    "stock": 20,
+    "image": "Multimedia/flicstuttifrutti.webp",
+    "tipo": "dulce",
+    "celiaco": "celiaco",
+    "categoria": "chicles"
+}, {
+    "id": "57",
+    "nombre": "Flow Cereal",
+    "precio": 90,
+    "stock": 15,
+    "image": "Multimedia/flowcereal.webp",
+    "tipo": "dietetico",
+    "celiaco": "noCeliaco",
+    "categoria": "barritas"
+}, {
+    "id": "58",
+    "nombre": "Flynn-Paff",
+    "precio": 10,
+    "stock": 30,
+    "image": "Multimedia/flynnpaff.webp",
+    "tipo": "dulce",
+    "celiaco": "celiaco",
+    "categoria": "caramelos"
+}, {
+    "id": "59",
+    "nombre": "Full Mani",
+    "precio": 200,
+    "stock": 20,
+    "image": "Multimedia/fullmani.jpg",
+    "tipo": "dulce",
+    "celiaco": "noCeliaco",
+    "categoria": "chocolates"
+}, {
+    "id": "60",
+    "nombre": "Guaymallen Blanco",
+    "precio": 80,
+    "stock": 30,
+    "image": "Multimedia/guaymallenblanco.png",
+    "tipo": "dulce",
+    "celiaco": "noCeliaco",
+    "categoria": "alfajores"
+}, {
+    "id": "61",
+    "nombre": "Guaymallen Membrillo",
+    "precio": 80,
+    "stock": 30,
+    "image": "Multimedia/guaymallenmembrillo.webp",
+    "tipo": "dulce",
+    "celiaco": "noCeliaco",
+    "categoria": "alfajores"
+}, {
+    "id": "62",
+    "nombre": "Guaymallen Negro",
+    "precio": 80,
+    "stock": 30,
+    "image": "Multimedia/guaymallennegro.png",
+    "tipo": "dulce",
+    "celiaco": "noCeliaco",
+    "categoria": "alfajores"
+}, {
+    "id": "63",
+    "nombre": "Lays",
+    "precio": 160,
+    "stock": 10,
+    "image": "Multimedia/lays.jpg",
+    "tipo": "salado",
+    "celiaco": "noCeliaco",
+    "categoria": "snacks"
+}, {
+    "id": "64",
+    "nombre": "Marroc",
+    "precio": 50,
+    "stock": 20,
+    "image": "Multimedia/marroc.jpg",
+    "tipo": "dulce",
+    "celiaco": "noCeliaco",
+    "categoria": "bombones"
+}, {
+    "id": "65",
+    "nombre": "Mellizas",
+    "precio": 135,
+    "stock": 15,
+    "image": "Multimedia/mellizas.webp",
+    "tipo": "dulce",
+    "celiaco": "noCeliaco",
+    "categoria": "galletitas"
+}, {
+    "id": "66",
+    "nombre": "Menta Cristal",
+    "precio": 6,
+    "stock": 50,
+    "image": "Multimedia/mentacristal.png",
+    "tipo": "dulce",
+    "celiaco": "celiaco",
+    "categoria": "caramelos"
+}, {
+    "id": "67",
+    "nombre": "Menta Cristal Fresh",
+    "precio": 6,
+    "stock": 50,
+    "image": "Multimedia/mentacristalfresh.webp",
+    "tipo": "dulce",
+    "celiaco": "celiaco",
+    "categoria": "caramelos"
+}, {
+    "id": "62",
+    "nombre": "Guaymallen Negro",
+    "precio": 80,
+    "stock": 30,
+    "image": "Multimedia/guaymallennegro.png",
+    "tipo": "dulce",
+    "celiaco": "noCeliaco",
+    "categoria": "alfajores"
+}, {
+    "id": "69",
+    "nombre": "Misky Masticables",
+    "precio": 3,
+    "stock": 50,
+    "image": "Multimedia/mickymasticables.jpg",
+    "tipo": "dulce",
+    "celiaco": "celiaco",
+    "categoria": "caramelos"
+}, {
+    "id": "70",
+    "nombre": "Misky Eucalipto",
+    "precio": 5,
+    "stock": 100,
+    "image": "Multimedia/miskyeucalipto.png",
+    "tipo": "dulce",
+    "celiaco": "celiaco",
+    "categoria": "gomitas"
+}, {
+    "id": "71",
+    "nombre": "Misky Fantasia",
+    "precio": 3,
+    "stock": 100,
+    "image": "Multimedia/miskyfantasia.jpg",
+    "tipo": "dulce",
+    "celiaco": "celiaco",
+    "categoria": "gomitas"
+}, {
+    "id": "72",
+    "nombre": "Misky Jelly Roll",
+    "precio": 4,
+    "stock": 100,
+    "image": "Multimedia/miskyjellyroll.jpg",
+    "tipo": "dulce",
+    "celiaco": "celiaco",
+    "categoria": "gomitas"
+}, {
+    "id": "73",
+    "nombre": "MisterPop Evolution",
+    "precio": 25,
+    "stock": 20,
+    "image": "Multimedia/misterpopevolution.webp",
+    "tipo": "dulce",
+    "celiaco": "celiaco",
+    "categoria": "chupetines"
+}, {
+    "id": "74",
+    "nombre": "MisterPop Frutal",
+    "precio": 12,
+    "stock": 50,
+    "image": "Multimedia/misterpopsfrutal.webp",
+    "tipo": "dulce",
+    "celiaco": "celiaco",
+    "categoria": "chupetines"
+}, {
+    "id": "75",
+    "nombre": "Mogul Ositos",
+    "precio": 50,
+    "stock": 20,
+    "image": "Multimedia/mogulositos.webp",
+    "tipo": "dulce",
+    "celiaco": "celiaco",
+    "categoria": "gomitas"
+}, {
+    "id": "76",
+    "nombre": "Oreo",
+    "precio": 140,
+    "stock": 15,
+    "image": "Multimedia/oreo.jpg",
+    "tipo": "dulce",
+    "celiaco": "noCeliaco",
+    "categoria": "galletitas"
+}, {
+    "id": "77",
+    "nombre": "Palitos de la selva",
+    "precio": 8,
+    "stock": 40,
+    "image": "Multimedia/palitosdelaselva.jpg",
+    "tipo": "dulce",
+    "celiaco": "celiaco",
+    "categoria": "caramelos"
+}, {
+    "id": "78",
+    "nombre": "Pepas Terepin",
+    "precio": 180,
+    "stock": 15,
+    "image": "Multimedia/pepasterepin.jpg",
+    "tipo": "dulce",
+    "celiaco": "noCeliaco",
+    "categoria": "galletitas"
+}, {
+    "id": "79",
+    "nombre": "Pepitos",
+    "precio": 150,
+    "stock": 15,
+    "image": "Multimedia/pepitos.jpg",
+    "tipo": "dulce",
+    "celiaco": "noCeliaco",
+    "categoria": "galletitas"
+}, {
+    "id": "80",
+    "nombre": "Picodulce",
+    "precio": 18,
+    "stock": 30,
+    "image": "Multimedia/picodulce.jpg",
+    "tipo": "dulce",
+    "celiaco": "celiaco",
+    "categoria": "chupetines"
+}, {
+    "id": "81",
+    "nombre": "Rhodesia",
+    "precio": 80,
+    "stock": 20,
+    "image": "Multimedia/rodesia.jpg",
+    "tipo": "dulce",
+    "celiaco": "noCeliaco",
+    "categoria": "barritas"
+}, {
+    "id": "82",
+    "nombre": "Rumba",
+    "precio": 135,
+    "stock": 20,
+    "image": "Multimedia/rumba.webp",
+    "tipo": "dulce",
+    "celiaco": "noCeliaco",
+    "categoria": "galletitas"
+}, {
+    "id": "83",
+    "nombre": "Saladix Cross",
+    "precio": 120,
+    "stock": 15,
+    "image": "Multimedia/saladixcross.png",
+    "tipo": "noCeliaco",
+    "celiaco": "snacks"
+}, {
+    "id": "84",
+    "nombre": "Saladix Hula Hula",
+    "precio": 120,
+    "stock": 15,
+    "image": "Multimedia/saladixhulahula.gif",
+    "tipo": "salado",
+    "celiaco": "noCeliaco",
+    "categoria": "snacks"
+}, {
+    "id": "85",
+    "nombre": "Saladix Jamon",
+    "precio": 120,
+    "stock": 15,
+    "image": "Multimedia/saladixjamon.webp",
+    "tipo": "salado",
+    "celiaco": "noCeliaco",
+    "categoria": "snacks"
+}, {
+    "id": "86",
+    "nombre": "Saladix Pizza",
+    "precio": 120,
+    "stock": 15,
+    "image": "Multimedia/saladixpizza.webp",
+    "tipo": "salado",
+    "celiaco": "noCeliaco",
+    "categoria": "snacks"
+}, {
+    "id": "87",
+    "nombre": "Serranas",
+    "precio": 160,
+    "stock": 10,
+    "image": "Multimedia/serranas.webp",
+    "tipo": "salado",
+    "celiaco": "noCeliaco",
+    "categoria": "galletitas"
+}, {
+    "id": "88",
+    "nombre": "Shot",
+    "precio": 90,
+    "stock": 15,
+    "image": "Multimedia/shot.webp",
+    "tipo": "dulce",
+    "celiaco": "noCeliaco",
+    "categoria": "chocolates"
+}, {
+    "id": "89",
+    "nombre": "Sonrisas",
+    "precio": 120,
+    "stock": 15,
+    "image": "Multimedia/sonrisas.webp",
+    "tipo": "dulce",
+    "celiaco": "noCeliaco",
+    "categoria": "galletitas"
+}, {
+    "id": "90",
+    "nombre": "Sugus",
+    "precio": 4,
+    "stock": 50,
+    "image": "Multimedia/sugus.jpg",
+    "tipo": "dulce",
+    "celiaco": "celiaco",
+    "categoria": "caramelos"
+}, {
+    "id": "91",
+    "nombre": "Surtido Bagley",
+    "precio": 240,
+    "stock": 10,
+    "image": "Multimedia/surtidobagley.webp",
+    "tipo": "dulce",
+    "celiaco": "noCeliaco",
+    "categoria": "galletitas"
+}, {
+    "id": "33",
+    "nombre": "Butter Toffee Dulce de leche",
+    "precio": 7,
+    "stock": 40,
+    "image": "Multimedia/buttertoffiedulcedeleche.jpg",
+    "tipo": "dulce",
+    "celiaco": "celiaco",
+    "categoria": "caramelos"
+}, {
+    "id": "92",
+    "nombre": "Surtido Diversion",
+    "precio": 230,
+    "stock": 10,
+    "image": "Multimedia/surtidodiversion.jpg",
+    "tipo": "dulce",
+    "celiaco": "noCeliaco",
+    "categoria": "galletitas"
+}, {
+    "id": "93",
+    "nombre": "Surtido Terrabusi",
+    "precio": 230,
+    "stock": 10,
+    "image": "Multimedia/surtidoterrabusi.webp",
+    "tipo": "dulce",
+    "celiaco": "noCeliaco",
+    "categoria": "galletitas"
+}, {
+    "id": "94",
+    "nombre": "Terrabusi Dulce de leche",
+    "precio": 145,
+    "stock": 20,
+    "image": "Multimedia/terrabusidulcedeleche.webp",
+    "tipo": "dulce",
+    "celiaco": "noCeliaco",
+    "categoria": "alfajores"
+}, {
+    "id": "95",
+    "nombre": "Tita",
+    "precio": 80,
+    "stock": 30,
+    "image": "Multimedia/tita.png",
+    "tipo": "dulce",
+    "celiaco": "noCeliaco",
+    "categoria": "barritas"
+}, {
+    "id": "96",
+    "nombre": "Toblerone",
+    "precio": 180,
+    "stock": 10,
+    "image": "Multimedia/toblerone.webp",
+    "tipo": "dulce",
+    "celiaco": "noCeliaco",
+    "categoria": "chocolates"
+}, {
+    "id": "97",
+    "nombre": "Tofi Blanco",
+    "precio": 145,
+    "stock": 10,
+    "image": "Multimedia/tofiblanco.jpg",
+    "tipo": "dulce",
+    "celiaco": "noCeliaco",
+    "categoria": "alfajores"
+}, {
+    "id": "98",
+    "nombre": "Tofi Negro",
+    "precio": 145,
+    "stock": 10,
+    "image": "Multimedia/tofinegro.jpg",
+    "tipo": "dulce",
+    "celiaco": "noCeliaco",
+    "categoria": "alfajores"
+}, {
+    "id": "99",
+    "nombre": "TopLine",
+    "precio": 50,
+    "stock": 20,
+    "image": "Multimedia/topline.jpg",
+    "tipo": "dulce",
+    "celiaco": "celiaco",
+    "categoria": "chicles"
+}, {
+    "id": "100",
+    "nombre": "TopLine Seven",
+    "precio": 120,
+    "stock": 10,
+    "image": "Multimedia/toplineseven.png",
+    "tipo": "dulce",
+    "celiaco": "celiaco",
+    "categoria": "chicles"
+}, {
+    "id": "101",
+    "nombre": "Traviata",
+    "precio": 160,
+    "stock": 10,
+    "image": "Multimedia/traviata.jpg",
+    "tipo": "salado",
+    "celiaco": "noCeliaco",
+    "categoria": "galletitas"
+}, {
+    "id": "102",
+    "nombre": "Tri-Shot",
+    "precio": 145,
+    "stock": 10,
+    "image": "Multimedia/trishot.jpg",
+    "tipo": "dulce",
+    "celiaco": "noCeliaco",
+    "categoria": "alfajores"
+}, {
+    "id": "103",
+    "nombre": "Yummy Surtido",
+    "precio": 45,
+    "stock": 30,
+    "image": "Multimedia/yummysurtido.webp",
+    "tipo": "dulce",
+    "celiaco": "celiaco",
+    "categoria": "gomitas"
+}]
