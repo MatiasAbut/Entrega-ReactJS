@@ -34,13 +34,12 @@ const DetalleProducto = ({producto}) => {
   <img src={`../${producto.image}`} className="img-fluid rounded-start" alt="..." />
     {/* 	product Information*/}
     <div className="info">
-      <h2>Descripcion</h2>
       <ul>
-        <li>
-          <strong>{producto.tipo} </strong>
+        <li className='logoSinTacc'>
+          <img src={`../${producto.celiaco}`} />
         </li>
         <li>
-          <strong>{producto.categoria}</strong>
+          <strong></strong>
         </li>
       </ul>
     </div>

@@ -9,7 +9,7 @@ const Navbar = () => {
         <>
       <header>
       <nav className="navbar navbar-expand-lg barraNavegacion">
-       <Navegation/>
+        <Navegation/>
       </nav>
         </header>
         </>

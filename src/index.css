@@ -826,3 +826,12 @@ background: #DFC2F2;
     text-decoration: none;
     color: white;
 }
+.info{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.logoSinTacc{
+    height: 5rem;
+    width: 5rem;
+}

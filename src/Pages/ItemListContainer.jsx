@@ -1,13 +1,12 @@
 import React from 'react';
-import CategoriasSB from '../Navegation/Categorias/CategoriasSB.jsx';
-import Main from '../Main/Main';
+import CategoriasSB from '../Category/CategoriasSB.jsx';
+import Main from './Main';
 import MobileFilter from '../Components/MobileFilter';
 
 
 const Home = () => {
     return (
-        <>
-             
+        <>         
   <main className="div11">
     <div className="filter">
       <button

@@ -6,7 +6,7 @@ import BotonesNav from './BotonesNav';
 const Navegation = () => {
     return (
         <>
-             <div className="container-fluid">
+        <div className="container-fluid">
           <Link className="navbar-brand" to="/">
             CandyShop
           </Link>
@@ -21,7 +21,7 @@ const Navegation = () => {
           >
             <span className="navbar-toggler-icon" />
           </button>
-         <BotonesNav/>
+          <BotonesNav/>
         </div>
         </>
     );
