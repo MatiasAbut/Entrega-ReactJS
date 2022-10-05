@@ -1,7 +1,7 @@
 import React, {useState, useEffect} from 'react';
 import { useParams } from 'react-router-dom';
 import DetalleProducto from './DetalleProducto';
-import { cartWidget } from '../Components/CartWidget/cartWidget';
+// import { cartWidget } from '../cartWidget/cartWidget';
 
 const Producto = () => {
 const [producto, setProducto] = useState([])

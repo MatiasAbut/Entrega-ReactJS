@@ -1,13 +1,13 @@
 import {BrowserRouter, Routes, Route} from 'react-router-dom'
 import './Styles/App.css'
-import ItemListContainer from './Pages/ItemListContainer';
-import Carrito from './Pages/Carrito';
-import Navbar from './Navegation/Navbar';
-import Contacto from './Pages/Contacto';
-import About from './Pages/About';
-import ItemDetailContainer from './Pages/ItemDetailContainer';
-import Categoria from './Pages/Categoria';
-import Tipos from './Pages/Tipos';
+import ItemListContainer from './Components/Pages/ItemListContainer';
+import Carrito from './Components/Pages/Carrito';
+import Navbar from './Components/Navegation/Navbar';
+import Contacto from './Components/Pages/Contacto';
+import About from './Components/Pages/About';
+import ItemDetailContainer from './Components/Pages/ItemDetailContainer';
+import Categoria from './Components/Pages/Categoria';
+import Tipos from './Components/Pages/Tipos';
 
 
 

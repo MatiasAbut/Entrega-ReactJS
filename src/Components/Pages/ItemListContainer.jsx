@@ -1,7 +1,7 @@
 import React from 'react';
 import CategoriasSB from '../Category/CategoriasSB.jsx';
 import Main from './Main';
-import MobileFilter from '../Components/MobileFilter';
+import MobileFilter from '../MobileFilter';
 
 
 const Home = () => {

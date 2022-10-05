@@ -1,6 +1,33 @@
-import React from 'react';
+import { useState } from 'react'
 
 const DetalleProducto = ({producto}) => {
+    const [cantidad, setCantidad] = useState(1);
+    const carrito = []
+
+
+    const agregarAlCarrito = (prod, cant) => {
+        let indice = carrito.findIndex(producto => producto.id  == prod.id) //Si existe o no
+
+        if(indice != -1) {
+          carrito[indice].cantidad = cant
+        } else {
+          const prodCarrito = {id: prod.id, cantidad: cant}
+          carrito.push(prodCarrito)
+        }
+        console.log(carrito)
+    }
+
+    const cantProducto = (operacion) => {
+      if(operacion == "+") {
+          if(cantidad < producto.stock) {
+            setCantidad(cantidad + 1)
+          }   
+      } else {
+        if(cantidad > 1) {
+          setCantidad(cantidad - 1)
+        }
+    }
+    }
     return (
         <>
             
@@ -15,7 +42,7 @@ const DetalleProducto = ({producto}) => {
     {/* 		Control */}
     <div className="control">
       {/* Start Button buying */}
-      <button className="btn addToCart">
+      <button className="btn addToCart" onClick={() => agregarAlCarrito(producto, cantidad) }>
         {/* 		the Price */}
         <span className="price">${producto.precio}</span>
         {/* 		shopping cart icon*/}
@@ -23,8 +50,14 @@ const DetalleProducto = ({producto}) => {
           <i className="fa fa-shopping-cart" aria-hidden="true" />
         </span>
         {/* 		Buy Now / ADD to Cart*/}
+        
         <span className="buy">Comprar</span>
       </button>
+      <div className='botonesStock'>
+      <button className='btn btn-dark' onClick={() => cantProducto("-")}>-</button>
+      <p className='card-text'>{cantidad}</p>
+      <button className='btn btn-light' onClick={() => cantProducto("+")}>+</button>
+      </div>
       {/* End Button buying */}
     </div>
   </div>

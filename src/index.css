@@ -835,3 +835,9 @@ background: #DFC2F2;
     height: 5rem;
     width: 5rem;
 }
+
+.botonesStock{
+    display: flex;
+    justify-content: space-around;
+    padding-top: 5%;
+}

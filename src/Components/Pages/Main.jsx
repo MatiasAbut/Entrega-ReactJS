@@ -1,6 +1,6 @@
 import React, {useState, useEffect} from 'react';
 import { Link } from 'react-router-dom';
-import { cartWidget } from '../Components/CartWidget/cartWidget.js';
+import { cartWidget } from '../CartWidget/cartWidget';
 const Home = () => {
     const [productos, setProductos] = useState([]);
     useEffect(() => {
