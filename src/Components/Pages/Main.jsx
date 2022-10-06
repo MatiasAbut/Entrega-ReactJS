@@ -1,8 +1,12 @@
-import React, {useState, useEffect} from 'react';
+import React, {useState, useEffect, useContext} from 'react';
 import { Link } from 'react-router-dom';
 import { cartWidget } from '../CartWidget/cartWidget';
+import { DarkModeContext } from '../../context/darkModeContext'
 const Home = () => {
     const [productos, setProductos] = useState([]);
+
+    const {darkMode, toggleDarkMode } = useContext(DarkModeContext)
+
     useEffect(() => {
         cartWidget().then(productos => {
             const cartWidget = productos.map(producto => 
@@ -29,18 +33,23 @@ const Home = () => {
                     </div>
                 </section>
                 </div>
-            </div> ) 
-            
-            
+            </div> 
+            ) 
             
             
             setProductos(cartWidget)
             })
     }, []);
 
+    const cambiarEstado = () => {
+        toggleDarkMode()
+        console.log(darkMode)
+    }
+
 
     return (
         <>
+    <button onClick={() => cambiarEstado()}>Dark Mode</button>
     <section id="catalogoProductos" className="containerShop">
         {productos}   
     </section>        

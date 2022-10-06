@@ -1,15 +1,21 @@
-import React from 'react';
+import React from 'react'
 
 const Buscador = () => {
+
+
+
+  
     return (
         <>
+        
                       <form className="d-flex" role="search">
             <input
               id="formulario"
               className="form-control me-2"
               type="search"
               placeholder="Buscar productos"
-              aria-label="Search"
+                // value={search} 
+                // onChange={searcher} 
             />
             <button
               id="botonBuscar"

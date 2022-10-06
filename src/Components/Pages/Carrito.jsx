@@ -14,7 +14,7 @@ const Carrito = () => {
     return (
         <>
         <main>
-    {"{"}/* {/* START SECTION SHOPPING CART */} */{"}"}
+     {/* START SECTION SHOPPING CART */} 
     <section id="finalCompra" className="shopping-cart">
         <div className="container">
         <h1 className="text-center">CARRITO</h1>
@@ -35,13 +35,13 @@ const Carrito = () => {
             </div>
             </div>
         </div>
-        {"{"}/* {/* ? START SHOPPING CART ITEMS */} */{"}"}
+         {/* ? START SHOPPING CART ITEMS */} 
         <div
             id="shoppingCartItemsContainer"
             className="shopping-cart-items shoppingCartItemsContainer"
         ></div>
-        {"{"}/* {/* ? END SHOPPING CART ITEMS */} */{"}"}
-        {"{"}/* {/* START TOTAL */} */{"}"}
+         {/* ? END SHOPPING CART ITEMS */}
+         {/* START TOTAL */} 
         <div className="row">
             <div className="col-12">
             <div className="shopping-cart-total d-flex align-items-center">
@@ -84,8 +84,8 @@ const Carrito = () => {
             </div>
             </div>
         </div>
-        {"{"}/* {/* END TOTAL */} */{"}"}
-        {"{"}/* {/* START MODAL COMPRA */} */{"}"}
+         {/* END TOTAL */} 
+        {/* START MODAL COMPRA */} 
         <div
             className="modal fade"
             id="comprarModal"
@@ -93,10 +93,10 @@ const Carrito = () => {
             aria-labelledby="comprarModalLabel"
             aria-hidden="true"
         ></div>
-        {"{"}/* {/* END MODAL COMPRA */} */{"}"}
+        {/* END MODAL COMPRA */} 
         </div>
     </section>
-    {"{"}/* {/* END SECTION SHOPPING CART */} */{"}"}
+    {/* END SECTION SHOPPING CART */} 
     </main>
 
         </>
