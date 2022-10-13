@@ -10,6 +10,7 @@ import ItemDetailContainer from './Components/Pages/ItemDetailContainer';
 import Categoria from './Components/Pages/Categoria';
 import Tipos from './Components/Pages/Tipos';
 import Catalogo from './Components/Pages/Catalogo';
+import Error from './Components/Pages/Error';
 
 const App = () => {
     return (
@@ -26,6 +27,7 @@ const App = () => {
                     <Route path="/about" element={<About/>} />
                     <Route path="/contacto" element={<Contacto/>} />
                     <Route path="/carrito" element={<Carrito/>} />
+                    <Route path="*" element={<Error/>} />
                 </Routes>
             </BrowserRouter>
         </DarkModeProvider>

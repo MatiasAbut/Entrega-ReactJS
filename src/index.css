@@ -1,8 +1,15 @@
-body {
-    background-color: #ffb6c1;
+
+
+
+.todo {
+    background: #9087ee;
     font-family: 'Koulen', cursive;
     font-family: 'Lobster', cursive;
-}
+    background-attachment: fixed;	
+	background-size:cover;
+    color: #696969;
+
+} 
 
 .barraNavegacion {
     background-color: #ff1493;
@@ -30,11 +37,8 @@ h3 {
     box-sizing: border-box;
 }
 
-body {
-    color: #696969;
-}
 
-#sidebar {
+.sidebar {
     width: 20%;
     padding: 10px;
     margin: 0;
@@ -657,16 +661,10 @@ label {
 
 /* fonts  */
 
-body {
-background: #DFC2F2;
-	background-image: linear-gradient( 135deg, #CE9FFC 10%, #7367F0 100%);
-	background-attachment: fixed;	
-	background-size: cover;
-	}
 
-#container{
+.containerDetalle{
 	box-shadow: 0 15px 30px 1px rgba(128, 128, 128, 0.31);
-	background: rgba(255, 255, 255, 0.90);
+	background: rgba(255, 255, 255, 0.9);
 	text-align: center;
 	border-radius: 5px;
 	overflow: hidden;
@@ -676,6 +674,14 @@ background: #DFC2F2;
 	
 }
 
+.containerCarrito{
+    box-shadow: 0 15px 30px 1px rgba(128, 128, 128, 0.31);
+	background: rgba(255, 255, 255, 0.9);
+	text-align: center;
+	border-radius: 5px;
+	overflow: hidden;
+	margin: 5em auto;
+}
 
 
 /* 	Product details  */
@@ -841,3 +847,23 @@ background: #DFC2F2;
     justify-content: space-around;
     padding-top: 5%;
 }
+
+
+
+/* DARKMODE */
+
+.darkmode{
+    background-color: #121212;
+    color: #757575;
+    background-image: black;
+    background-size: cover;
+}
+
+.darkmode-navbar{
+    background: rgba(19, 18, 18, 0.6);
+}
+
+.darkmode-logo{
+    color: rgb(16, 205, 230);
+}
+

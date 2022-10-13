@@ -1,12 +1,13 @@
-import React from 'react';
+import React, {useState, useEffect, useContext, memo} from 'react';
 import Footer from './SideBar/Footer';
 import ProductosSB from './SideBar/ProductosSB';
 import TiposSB from './SideBar/TiposSB';
-
+import { DarkModeContext } from '../../context/darkModeContext'
 const CategoriasSB = () => {
+  const {darkMode, toggleDarkMode } = useContext(DarkModeContext)
     return (
         <>
-    <section id="sidebar">
+    <section className={darkMode ? 'darkmode sidebar' : 'sidebar'}>
       <div>
         <h6 className="p-1 border-bottom">Productos</h6>
         <ProductosSB/>
@@ -23,4 +24,4 @@ const CategoriasSB = () => {
     );
 }
 
-export default CategoriasSB;
+export default memo(CategoriasSB);

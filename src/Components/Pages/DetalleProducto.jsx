@@ -1,21 +1,13 @@
-import { useState } from 'react'
-
+import React, {useState, useEffect, useContext} from 'react';
+import { CarritoContext } from '../../context/CarritoContext';
+import { DarkModeContext } from '../../context/darkModeContext'
+import { ToastContainer, toast } from 'react-toastify';
+import 'react-toastify/dist/ReactToastify.css';
 const DetalleProducto = ({producto}) => {
     const [cantidad, setCantidad] = useState(1);
-    const carrito = []
-
-
-    const agregarAlCarrito = (prod, cant) => {
-        let indice = carrito.findIndex(producto => producto.id  == prod.id) //Si existe o no
-
-        if(indice != -1) {
-          carrito[indice].cantidad = cant
-        } else {
-          const prodCarrito = {id: prod.id, cantidad: cant}
-          carrito.push(prodCarrito)
-        }
-        console.log(carrito)
-    }
+    
+    const {darkMode, toggleDarkMode } = useContext(DarkModeContext)
+    const{carrito, agregarProducto, quitarProducto} = useContext(CarritoContext)
 
     const cantProducto = (operacion) => {
       if(operacion == "+") {
@@ -32,7 +24,7 @@ const DetalleProducto = ({producto}) => {
         <>
             
   {/* Start	Product details */}
-  <div className="product-details">
+  <div className={darkMode ? 'darkmode product-details' : 'product-details'}>
     {/* 	Product Name */}
     <h1>{producto.nombre}</h1>
     {/* The most important information about the product */}
@@ -42,7 +34,7 @@ const DetalleProducto = ({producto}) => {
     {/* 		Control */}
     <div className="control">
       {/* Start Button buying */}
-      <button className="btn addToCart" onClick={() => agregarAlCarrito(producto, cantidad) }>
+      <button className="btn addToCart" onClick={() => agregarProducto(producto, cantidad) }>
         {/* 		the Price */}
         <span className="price">${producto.precio}</span>
         {/* 		shopping cart icon*/}
@@ -78,7 +70,18 @@ const DetalleProducto = ({producto}) => {
     </div>
   </div>
   {/*  End product image  */}
-
+  <ToastContainer
+position="top-right"
+autoClose={5000}
+hideProgressBar
+newestOnTop={false}
+closeOnClick
+rtl={false}
+pauseOnFocusLoss
+draggable
+pauseOnHover
+theme="dark"
+/>
         </>
     );
 }

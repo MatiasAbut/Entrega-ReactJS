@@ -1,10 +1,10 @@
-import React from 'react';
+import React, {useState, useEffect, useContext} from 'react';
 import Swal from 'sweetalert2'
-
+import { DarkModeContext } from '../../context/darkModeContext'
 const Contacto = () => {
     
 
-
+    const {darkMode, toggleDarkMode } = useContext(DarkModeContext)
     const datosFormulario = React.useRef()
 
     const consultarForm = (e) => {
@@ -32,7 +32,7 @@ const Contacto = () => {
 
     
     return (
-        <>
+        <div className={darkMode ? 'darkmode contaccto' : 'contaccto'}>
         <div >
     <section className="mb-4">
         <h2 className="h1-responsive font-weight-bold text-center my-4">
@@ -113,7 +113,7 @@ const Contacto = () => {
     </div>
 
         
-        </>
+        </div>
     );
 }
 

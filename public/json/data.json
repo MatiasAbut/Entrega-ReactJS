@@ -213,7 +213,7 @@
     "image": "Multimedia/bonobon.webp",
     "tipo": "dulce",
     "celiaco": "Multimedia/logoContieneGluten.png",
-    "categoria": "bombones"
+    "categoria": "bombon"
 }, {
     "id": "25",
     "nombre": "Bon o Bon Blanco",
@@ -222,7 +222,7 @@
     "image": "Multimedia/bonobonblanco.png",
     "tipo": "dulce",
     "celiaco": "Multimedia/logoContieneGluten.png",
-    "categoria": "bombones"
+    "categoria": "bombon"
 }, {
     "id": "26",
     "nombre": "Boobaloo Menta",
@@ -321,7 +321,7 @@
     "image": "Multimedia/cabsha.jpg",
     "tipo": "dulce",
     "celiaco": "Multimedia/logoContieneGluten.png",
-    "categoria": "bombones"
+    "categoria": "bombon"
 }, {
     "id": "37",
     "nombre": "Cadbury Tres Sueños",
@@ -446,7 +446,7 @@
     "image": "Multimedia/doscorazones.jpg",
     "tipo": "dulce",
     "celiaco": "Multimedia/logo-sin-tacc.jpg",
-    "categoria": "bombones"
+    "categoria": "bombon"
 }, {
     "id": "52",
     "nombre": "Fantoche Blanco",
@@ -473,7 +473,7 @@
     "image": "Multimedia/ferrerorosher.webp",
     "tipo": "dulce",
     "celiaco": "Multimedia/logoContieneGluten.png",
-    "categoria": "bombones"
+    "categoria": "bombon"
 }, {
     "id": "55",
     "nombre": "Flics Menta",
@@ -563,7 +563,7 @@
     "image": "Multimedia/marroc.jpg",
     "tipo": "dulce",
     "celiaco": "Multimedia/logoContieneGluten.png",
-    "categoria": "bombones"
+    "categoria": "bombon"
 }, {
     "id": "65",
     "nombre": "Mellizas",

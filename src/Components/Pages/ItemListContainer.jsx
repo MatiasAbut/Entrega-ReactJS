@@ -1,13 +1,16 @@
-import React from 'react';
+import React, {useState, useEffect, useContext} from 'react';
 import CategoriasSB from '../Category/CategoriasSB.jsx';
 import Main from './Main';
 import MobileFilter from '../MobileFilter';
+import { DarkModeContext } from '../../context/darkModeContext'
+
 
 
 const Home = () => {
+  const {darkMode, toggleDarkMode } = useContext(DarkModeContext)
     return (
         <>         
-  <main className="div11">
+  <main className={darkMode ? 'darkmode div11' : 'div11'}>
     <div className="filter">
       <button
         className="btn btn-default"

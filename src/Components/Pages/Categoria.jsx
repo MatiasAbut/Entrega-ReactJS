@@ -1,7 +1,8 @@
-import {useState, useEffect} from 'react';
+import {useState, useEffect, useContext} from 'react';
 import { useParams, Link } from 'react-router-dom';
+import { DarkModeContext } from '../../context/darkModeContext'
 const Categoria = () => {
-
+    const {darkMode, toggleDarkMode } = useContext(DarkModeContext)
     const [productos, setProductos] = useState([]);
     const {categoria} = useParams()
     useEffect(() => {
@@ -12,12 +13,12 @@ const Categoria = () => {
             console.log(productosCategoria)
             const cartWidget = productosCategoria.map(producto => 
                 <div>
-                <div id="catalogoProductos">    
+                <div id="catalogoProductos" className={darkMode ? 'darkmode catProd ' : 'catProd '}>    
                 <section id="products">
-                    <div className="container">
+                    <div className="containerr">
                     <div className="mercaderia">
-                        <div className="mercaderia-card ">
-                        <div className="card item" id="imagenProducto">
+                        <div className={darkMode ? 'darkmode mercaderia-card ' : 'mercaderia-card '}>
+                        <div id="imagenProducto"className={darkMode ? 'darkmode-navbar card item' : 'card item'}>
                             <img className="card-img-top itemImage" src={"../" + producto.image} alt="Card image cap"/> 
                             <div className="card-body">
                             <p className="card-text itemTitle">{producto.nombre}</p>
@@ -34,7 +35,7 @@ const Categoria = () => {
                     </div>
                 </section>
                 </div>
-            </div> ) 
+            </div>  ) 
             
             
             
@@ -43,7 +44,7 @@ const Categoria = () => {
         })
     }, [categoria]);
     return (
-    <section id="catalogoProductos" className="containerShop">
+    <section id="catalogoProductos" className={darkMode ? 'darkmode containerShop ' : 'containerShop '}>
         {productos}   
     </section> 
             
