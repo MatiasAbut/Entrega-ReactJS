@@ -2,6 +2,7 @@
 renderLista.js
 # dependencies
 /node_modules
+/public/json
 /.pnp
 .pnp.js
 

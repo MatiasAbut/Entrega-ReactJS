@@ -29,7 +29,7 @@ const BotonesNav = () => {
               
               </li>
             </ul>
-            <button className="btn btn-outline-dark itemsNavBar" onClick={cambiarEstado}><i class="fa-sharp fa-solid fa-moon"></i></button>
+            <button className="btn btn-outline-dark itemsNavBar" onClick={cambiarEstado}><i className="fa-sharp fa-solid fa-moon"></i></button>
         </div>
         </>
     );

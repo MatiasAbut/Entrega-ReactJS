@@ -1,8 +1,8 @@
 import React, {useState, useEffect, useContext} from 'react';
-import CategoriasSB from '../Category/CategoriasSB.jsx';
 import Main from './Main';
 import MobileFilter from '../MobileFilter';
 import { DarkModeContext } from '../../context/darkModeContext'
+import CategoriasSB from '../SideBar/CategoriasSB';
 
 
 

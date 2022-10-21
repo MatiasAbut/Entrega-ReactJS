@@ -9,7 +9,6 @@ import About from './Components/Pages/About';
 import ItemDetailContainer from './Components/Pages/ItemDetailContainer';
 import Categoria from './Components/Pages/Categoria';
 import Tipos from './Components/Pages/Tipos';
-import Catalogo from './Components/Pages/Catalogo';
 import Error from './Components/Pages/Error';
 
 const App = () => {
@@ -23,7 +22,6 @@ const App = () => {
                     <Route path="/producto/:id" element={<ItemDetailContainer/>} />
                     <Route path="/categoria/:categoria" element={<Categoria/>} />
                     <Route path="/tipos/:tipo" element={<Tipos/>} />
-                    <Route path="/catalogo" element={<Catalogo/>} />
                     <Route path="/about" element={<About/>} />
                     <Route path="/contacto" element={<Contacto/>} />
                     <Route path="/carrito" element={<Carrito/>} />

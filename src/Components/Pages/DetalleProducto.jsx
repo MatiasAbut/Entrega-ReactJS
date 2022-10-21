@@ -11,7 +11,7 @@ const DetalleProducto = ({producto}) => {
 
     const cantProducto = (operacion) => {
       if(operacion == "+") {
-          if(cantidad < producto.stock) {
+          if(cantidad < producto[1].stock) {
             setCantidad(cantidad + 1)
           }   
       } else {
@@ -26,17 +26,17 @@ const DetalleProducto = ({producto}) => {
   {/* Start	Product details */}
   <div className={darkMode ? 'darkmode product-details' : 'product-details'}>
     {/* 	Product Name */}
-    <h1>{producto.nombre}</h1>
+    <h1>{producto[1].nombre}</h1>
     {/* The most important information about the product */}
     <p className="information">
-    Stock: {producto.stock}
+    Stock: {producto[1].stock}
     </p>
     {/* 		Control */}
     <div className="control">
       {/* Start Button buying */}
       <button className="btn addToCart" onClick={() => agregarProducto(producto, cantidad) }>
         {/* 		the Price */}
-        <span className="price">${producto.precio}</span>
+        <span className="price">${producto[1].precio}</span>
         {/* 		shopping cart icon*/}
         <span className="shopping-cart">
           <i className="fa fa-shopping-cart" aria-hidden="true" />
@@ -56,17 +56,10 @@ const DetalleProducto = ({producto}) => {
   {/* 	End	Product details   */}
   {/* 	Start product image & Information */}
   <div className="product-image">
-  <img src={`../${producto.image}`} className="img-fluid rounded-start" alt="..." />
+  <img src={`${producto[1].image}`} className="img-fluid rounded-start" alt="..." />
     {/* 	product Information*/}
-    <div className="info">
-      <ul>
-        <li className='logoSinTacc'>
-          <img src={`../${producto.celiaco}`} />
-        </li>
-        <li>
-          <strong></strong>
-        </li>
-      </ul>
+    <div className="info ">
+          <p>{producto[1].celiaco} </p> 
     </div>
   </div>
   {/*  End product image  */}

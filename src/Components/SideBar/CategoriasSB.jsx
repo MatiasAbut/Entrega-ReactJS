@@ -1,7 +1,7 @@
 import React, {useState, useEffect, useContext, memo} from 'react';
-import Footer from './SideBar/Footer';
-import ProductosSB from './SideBar/ProductosSB';
-import TiposSB from './SideBar/TiposSB';
+import Footer from './Footer';
+import ProductosSB from './ProductosSB';
+import TiposSB from './TiposSB';
 import { DarkModeContext } from '../../context/darkModeContext'
 const CategoriasSB = () => {
   const {darkMode, toggleDarkMode } = useContext(DarkModeContext)
